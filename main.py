@@ -4,7 +4,7 @@ from data import db_session
 from data.jobs import Jobs
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
+app.config['SECRET_KEY'] = ''
 
 
 @app.route('/')
